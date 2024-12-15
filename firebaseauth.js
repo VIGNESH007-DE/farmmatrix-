@@ -4,8 +4,14 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } f
 import { getFirestore, setDoc, doc } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
 
 const firebaseConfig = {
-   
-};
+    apiKey: "AIzaSyCmzkmIkVAmWGI3PrqKzcRjE08RKT7BnCI",
+    authDomain: "login-form1-44264.firebaseapp.com",
+    projectId: "login-form1-44264",
+    storageBucket: "login-form1-44264.firebasestorage.app",
+    messagingSenderId: "321283240254",
+    appId: "1:321283240254:web:46281600398a0f9bd2fc6f"
+  };
+  
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
